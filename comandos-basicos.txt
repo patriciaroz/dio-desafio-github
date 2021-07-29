@@ -1,0 +1,49 @@
+Principais comandos do git
+
+$ mkdir projeto-curso-git - criando diretório (pasta) do projeto
+
+$ cd projeto-curso-git - entrando na pasta
+
+$ git init - iniciando repositório
+
+$ git config --global user.email "email@email.com"
+
+$ git remote add origin https://github.com/.../
+
+$ git push -u origin master - enviando para repositório remoto
+
+$ git add arquivo - preparando arquivo para posterior commit
+
+$ git status - verificando arquivos que foram comitados ou pendentes
+
+$ git commit -m 'comentário' - criando commit
+
+$ git log - verificando histórico de commits
+
+$ git push - submetendo as alterações ao github
+
+$ git branch - lista todas as branches do repositório local
+
+$ git branch nome_branch - cria uma branch, permanece na atual
+
+$ git checkout nome_branch - muda para a branch descrita
+
+$ git checkout -b nome_branch - cria uma nova branch e muda para ela
+
+$ git checkout -d nome_branch - deleta a branch, não pode estar nela nesse momento
+
+$ touch arquivo.html - cria um novo arquivo no diretório
+
+$ git push origin nome_branch - envia a branch para o github
+
+$ git add . - adiciona todos os arquivos do diretório
+
+$ git clone link_do_repositorio_github.html - faz um clone do diretório do github para o local
+
+# Remover remote
+$ git remote rm destination
+
+# Confirmar a remoção / ver remotes
+$ git remote -v
+
+
